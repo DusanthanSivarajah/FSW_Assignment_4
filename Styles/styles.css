@@ -42,13 +42,24 @@ button{
     
 
 }
+button:hover{
+    background: rgb(211, 147, 147);
+}
+
+ul{
+    padding: 0;
+}
 
 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
     font-size: 17px;
-    padding: 12px 4px 12px 50px;
+    padding: 12px;
     user-select: none;
     cursor: pointer;
+    position: relative;
     
 }
 
@@ -66,6 +77,30 @@ ul li{
     flex-shrink: 2;
     background-color: yellow;
     
-   
 
 }
+ul li.checked{
+    text-decoration: line-through;
+}
+
+#list-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ul li .del-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    right: 500px;
+
+}
+
