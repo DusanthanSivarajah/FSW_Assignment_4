@@ -39,5 +39,33 @@ button{
     border-radius: 40px;
     width:15%;
     height: 27px;;
+    
+
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 4px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+
+
+.list-container{
+    display:flex;
+    flex-direction: row;
+    margin-top: 12px;
+   
+    
+}
+.status-container li{
+    align-items: flex-end;
+    flex-shrink: 2;
+    background-color: yellow;
+    
+   
 
 }
