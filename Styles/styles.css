@@ -1,0 +1,43 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+    
+    box-sizing: border-box;
+}
+
+body{
+   width: 100%;
+   min-height: 100vh;
+   background: linear-gradient(135deg,rgb(0, 0, 0),rgb(212, 57, 57));
+   
+}
+
+.to-do-app{
+    width: 100%;
+    max-width: 550px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 15px;
+
+    
+}
+
+.to-do-app h2{
+    color: grey;
+}
+
+button{
+   
+    border:none;
+    outline: none;
+    background-color:rgb(191, 68, 68) ;
+    color:rgb(8, 7, 7);
+    font-weight: 700;
+    cursor:pointer;
+    border-radius: 40px;
+    width:15%;
+    height: 27px;;
+
+}
