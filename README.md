@@ -16,6 +16,29 @@ Use localstorage to save the tasks and their statuses in the browser so you can 
 
 
 
+Functionalities:
+
+    As soon as webpage is Open, the user can fill out the blank spaces that are required to proceed with the Add task.
+
+    By default, all task that are set in the future are to be pending, in other words all pending tasks will be highlighted in Yellow.
+
+    All task that are set in the past are highlighted in red, showing that it is passed due date.
+
+    Finally once a task is complete, the user can click on the task, crossing out the task and highlighting the task in green. 
+
+    The user can delete any task by pressing on the "X" icon in parallel with the task.   
 
 
 
+
+Reference:
+Guidence and inspiration from the following Youtube videos: 
+
+    Youtuber: GreatStack 
+    Video Title: How To Create To-Do List App Using HTML CSS And JavaScript | Task App In JavaScript
+    Video Link:https://www.youtube.com/watch?v=G0jO8kUrg-I&ab_channel=GreatStack
+
+
+    Youtuber: HMA WebDesign
+    Video Title: Create Auto Refreshing Time Every 1 Second Using JavaScript | Current Date and Time Using JavaScript
+    Video Link:https://www.youtube.com/watch?v=MaecqxNqR-I&t=126s&ab_channel=HMAWebDesign
